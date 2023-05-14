@@ -1,0 +1,95 @@
+
+.navbar.content {
+    margin-bottom: 0;
+    border-radius: 0;
+    position: fixed;
+  }
+
+.row.content {
+  height: 1500px;
+}
+
+/*page d'accueil */
+.wrapper {
+  background-color: #007179;
+  height: 800px;
+  background-image: url("images/fond.jpg");
+  background-size:auto;
+}
+
+.milieuConnexion {
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 100%;
+  background-color: #007179;
+  background-position: center;
+}
+
+.milieuSite {
+  padding-top: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
+  background-color: #007179;
+  background-position: center;
+}
+
+.form {
+  padding : 50px;
+  border: 5px white;
+}
+
+.messageErreur{
+  color : #B12A50;
+}
+.messageSucces{
+  color : white;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button {
+  background-color: #002D72;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+input[type=submit]:hover {
+  background-color: white;
+  color: #B12A50;
+  border: 1px solid #002D72;
+}
+
+
+table{
+  text-align: center;
+  border : 2px solid;
+  border-color: #007179;
+  width: 100%;
+}
+
+td{
+  text-align: center;
+  border : 1px solid;
+  border-color: #007179;
+}
+
+th{
+  color : #007179;
+  text-align: center;
+  font-size: 20px;
+  border : 3px solid;
+  border-color:#007179;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+  <h2>Section Professeur</h2>
+  
+  <form id="ajoutProf">
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" required>
+  
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" required>
+  
+    <label for="mdp">Mot de passe:</label>
+    <input type="text" id="mdp" required>
+  
+    <label for="email">Email:</label>
+    <input type="text" id="email" required>
+  
+    <input type="hidden" name="action" value="ajout">
+  
+    <button type="submit">Ajouter Professeur</button>
+  </form>
+  
+  <h2>Voulez-vous supprimer un professeur</h2>
+  
+  <form id="suppProf">
+    <label for="nomSupp">Nom:</label>
+    <input type="text" id="nomSupp" required>
+  
+    <label for="prenomSupp">Prénom:</label>
+    <input type="text" id="prenomSupp" required>
+  
+    <label for="emailSupp">Email:</label>
+    <input type="text" id="emailSupp" required>
+  
+    <input type="hidden" name="action" value="supp">
+  
+    <button type="submit">Supprimer</button>
+  </form>
+</body>
+</html>

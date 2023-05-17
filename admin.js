@@ -53,7 +53,9 @@ function loadSection(sectionId) {
                 event.preventDefault();
                 var nom = $('#nom').val();
                 var prenom = $('#prenom').val();
-                var matiere = $('#matiere').val();
+                var email = $('#email').val();
+                var mdp = $('#mdp').val();               
+                var classe = $('#classe').val();
                  
                 $.ajax({
                   url: 'AdminEtudiant.php',
@@ -61,6 +63,9 @@ function loadSection(sectionId) {
                   data: {
                     nom: nom,
                     prenom: prenom,
+                    email: email,
+                    mdp: mdp,
+                    classe: classe,
                     action : 'ajout'
                   },
                   success: function(response) {

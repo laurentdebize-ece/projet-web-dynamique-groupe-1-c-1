@@ -1,12 +1,10 @@
 <?php
-// Informations de connexion à la base de données
-$host = "localhost"; // ou l'adresse IP du serveur MySQL
-$dbname = "nom_de_la_base_de_donnees";
+$host = "localhost"; 
+$dbname = "projetomnesmyskill";
 $username = "root";
 $password = "root";
 $errorMessage = "";
 
-// Connexion à la base de données avec PDO
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -16,8 +14,7 @@ try {
         $adresse_email = $_POST["adresse_email"];
         $mot_passe = $_POST["mot_passe"];
 
-        // Requête SQL pour chercher l'utilisateur correspondant à l'email et au mot de passe donnés
-        $query = "SELECT * FROM utilisateurs WHERE adresse_email = :email AND mot_passe = :password";
+        $query = "SELECT * FROM etudiant WHERE email = :email AND mdp = :password";
         $stmt = $db->prepare($query);
         $stmt->bindParam(":email", $adresse_email);
         $stmt->bindParam(":password", $mot_passe);

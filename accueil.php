@@ -16,13 +16,13 @@
       <ul class="navbar-nav mr-auto">
           
         <li class="nav-item ml-2">
-          <a class="nav-link btn btn-outline-primary btn-case" href="etudiant.php"><span>&#8486Etudiant</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="etudiant.php"><span>Etudiant</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-primary btn-case" href="#"><span>&#8508Professeur</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="#"><span>Professeur</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-primary btn-case" href="administration."><span>&#x2605Administration</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="administration."><span>Administration</span></a>
         </li>
           
         

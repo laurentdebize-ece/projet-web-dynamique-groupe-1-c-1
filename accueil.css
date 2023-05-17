@@ -1,0 +1,96 @@
+.logo {
+    max-width: 200px;
+}
+
+
+
+.navbar {
+    height: 100px;
+    /* Définir la hauteur de la barre */
+    padding-top: 20px;
+    /* Ajouter un espace en haut de la barre */
+    padding-bottom: 20px;
+    /* Ajouter un espace en bas de la barre */
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+
+.btn-case {
+    border: 1px solid white;
+
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+
+    color: white !important;
+    background-color: #007079;
+    border-color: white;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.3);
+}
+
+.btn-case:hover {
+    background-color: #0087a6;
+    border-color: #0087a6;
+    color: #fff;
+
+    background-color: white;
+
+
+}
+.btn-case:hover span {
+    color: #007079;
+}
+
+/* Styles pour la section de bienvenue */
+.welcome-section {
+    position: relative;
+    height: 500px;
+}
+
+.welcome-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+
+.welcome-section .text-bar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 70px;
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+
+  }
+  
+  

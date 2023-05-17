@@ -14,7 +14,7 @@ try {
         $adresse_email = $_POST["adresse_email"];
         $mot_passe = $_POST["mot_passe"];
 
-        $query = "SELECT * FROM etudiant WHERE email = :email AND mdp = :password";
+        $query = "SELECT * FROM adminpro WHERE email = :email AND mdp = :password";
         $stmt = $db->prepare($query);
         $stmt->bindParam(":email", $adresse_email);
         $stmt->bindParam(":password", $mot_passe);

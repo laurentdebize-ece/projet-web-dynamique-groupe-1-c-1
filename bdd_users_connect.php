@@ -1,7 +1,7 @@
 <?php
 
-$database = "omnesmyskills";
-$db_handle = mysqli_connect('localhost', 'root', '');
+$database = "projetomnesmyskill";
+$db_handle = mysqli_connect('localhost', 'root', 'root');
 $db_found = mysqli_select_db($db_handle, $database);
 
 try{

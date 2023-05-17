@@ -22,7 +22,7 @@ try {
         $result = $stmt->fetch();
 
         if ($result) {
-            header('Location: accueil.php');
+            header('Location: admin.php');
         } else {
             $errorMessage = "ID d'utilisateur ou mot de passe incorrect. Entrez l'ID d'utilisateur et le mot de passe corrects et réessayez.";
         }

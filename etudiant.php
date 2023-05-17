@@ -22,10 +22,8 @@ try {
         $result = $stmt->fetch();
 
         if ($result) {
-            // Les identifiants sont corrects, on peut autoriser la connexion
             header('Location: accueil.php');
         } else {
-            // Les identifiants sont incorrects, on ne peut pas autoriser la connexion
             $errorMessage = "ID d'utilisateur ou mot de passe incorrect. Entrez l'ID d'utilisateur et le mot de passe corrects et réessayez.";
         }
     }

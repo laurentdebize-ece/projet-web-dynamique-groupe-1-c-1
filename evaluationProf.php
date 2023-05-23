@@ -111,7 +111,8 @@ if (isset($_POST["confirmerEvaluation"])) {
 <body>
 
     <?php include 'navbar.php'; ?>
-
+    
+    
     <div class="wrapper">
 
         <div class="milieuSite">

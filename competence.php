@@ -63,6 +63,7 @@ if (isset($_POST["ajouterCompetence"])) {
 }
 ?>
 
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="competence.css">
@@ -73,21 +74,20 @@ if (isset($_POST["ajouterCompetence"])) {
     <?php include 'navbar.php'; ?>
 
     <div class="wrapper">
-
         <div class="milieuSite">
 
-            <label class="messageErreur"><?php echo $errreurBdd ?></label><br>
-            <label class="messageSucces"><?php echo $succesBdd ?></label><br>
+            <label class="messageErreur"><?php echo $errreurBdd ?></label>
+            <label class="messageSucces"><?php echo $succesBdd ?></label>
 
             <form class="form" action="competence.php" method="post">
-                <h1>Créer une nouvelle compétence</h1><br>
+                <h1>Créer une nouvelle compétence</h1>
 
-                <input type="text" placeholder="Titre de la compétence" name="titreCompetence" required><br>
+                <input type="text" placeholder="Titre de la compétence" name="titreCompetence" required>
 
                 <label>Cours correspondant</label>
                 <select name="cours" id="cours" required>
                     <?php echo $listeCours ?>
-                </select><br>
+                </select>
 
                 <label>Niveau d'importance</label>
                 <select name="niveauImportance" id="niveauImportance" required>

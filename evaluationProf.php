@@ -102,7 +102,11 @@ if (isset($_POST["confirmerEvaluation"])) {
 ?>
 
 <html>
-    <head><link rel="stylesheet" href="mesCours.css"></head>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mesCours.css">
+    <link rel="stylesheet" type="text/css" href="evaluationProf.css">
+
+    </head>
 
 <body>
 
@@ -118,7 +122,7 @@ if (isset($_POST["confirmerEvaluation"])) {
 
             <table>
                 <caption style=text-align:center>
-                    <h2>Liste des compétences non évaluées</h2>
+                    <h2>Liste des compétences non évaluées Professeur</h2>
                 </caption>
                 <tr>
                     <th>Competence</th>
@@ -131,7 +135,7 @@ if (isset($_POST["confirmerEvaluation"])) {
 
             <table>
                 <caption style=text-align:center>
-                    <h2>Liste des compétences non évaluées</h2>
+                    <h2>Liste des compétences non évaluées Elèves</h2>
                 </caption>
                 <tr>
                     <th>Eleve</th>

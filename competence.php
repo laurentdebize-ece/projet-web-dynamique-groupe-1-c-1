@@ -65,6 +65,7 @@ if (isset($_POST["ajouterCompetence"])) {
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="competence.css">
 </head>

@@ -92,6 +92,12 @@ if (isset($_POST["supprimer"])) {
 
 <html>
 
+<head>
+  <link rel="stylesheet" type="text/css" href="mesCours.css">
+  <link rel="stylesheet" type="text/css" href="competence.css">
+
+</head>
+
 <body>
 
   <?php include 'navbar.php'; ?>

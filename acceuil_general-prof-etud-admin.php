@@ -14,7 +14,7 @@
     <a class="navbar-brand" href="#"><img src="images/logo_ece.png" width="180" height="50" alt="Logo"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
-          
+
         <li class="nav-item ml-2">
           <a class="nav-link btn btn-outline-primary btn-case" href="connexion.php"><span>Etudiant</span></a>
         </li>
@@ -24,14 +24,14 @@
         <li class="nav-item">
           <a class="nav-link btn btn-outline-primary btn-case" href="connexion.php"><span>Administration</span></a>
         </li>
-          
-        
+
+
       </ul>
     </div>
   </nav>
 
   <div class="welcome-section">
-  <img src="images/inseec-ece-fond.jpg" alt="Imagedefond">
+    <img src="images/inseec-ece-fond.jpg" alt="Imagedefond">
     <div class="filter"></div>
     <div class="text-bar">
       Bienvenue sur L'intranet de l'ECE Paris - Lyon

@@ -84,11 +84,11 @@ if (isset($_POST["LOGIN"])) {
         <img src="images\logo.png" alt="Logo" class="logo">
         <p class="titre">Connexion avec votre compte professionnel</p>
 
-        <form class="form" action="connexion.php" method="POST"> <!--Formulaire de connexion-->
-            <label class="messageErreur"><?php echo $ConnexionEchec ?></label> <!--Ligne pour les messages d'erreur - le texte est une variable définie et modifiée dans index.php-->
+        <form class="form" action="connexion.php" method="POST">
+            <label class="messageErreur"><?php echo $ConnexionEchec ?></label>
             <input type="text" placeholder="Entrer le nom d'utilisateur" name="Email" required>
             <input type="password" placeholder="Entrer le mot de passe" name="MotDePasse" required><br>
-            <input type="submit" class="button" name='LOGIN' value='CONNEXION'> <!-- On soumet le formulaire avec ce bouton-->
+            <input type="submit" class="button" name='LOGIN' value='CONNEXION'>
         </form>
         <label>
             <input type="checkbox" name="maintenir_connexion" onchange="if(this.checked){ setCookie('Email', document.getElementsByName('Email')[0].value); setCookie('MotDePasse', document.getElementsByName('MotDePasse')[0].value); } else { setCookie('Email', '', -1); setCookie('MotDePasse', '', -1); }">

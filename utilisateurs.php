@@ -30,6 +30,12 @@ if (isset($_POST["AJOUTER"])) {
 ?>
 
 <html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mesCours.css">
+    <link rel="stylesheet" type="text/css" href="competence.css">
+
+
+    </head>
 
 <body>
 

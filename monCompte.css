@@ -1,13 +1,16 @@
 .form {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
   
   h1 {
     text-align: center;
@@ -16,6 +19,7 @@
   }
   
   .input {
+    
     display: block;
     width: 100%;
     padding: 10px;

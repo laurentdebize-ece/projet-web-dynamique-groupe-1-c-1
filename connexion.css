@@ -194,11 +194,8 @@ label span {
 .left img {
 
     top: 0;
-    /* Définissez la position de l'image en haut du conteneur */
     max-width: 100%;
-    /* Définissez la largeur de l'image à 100% pour la faire remplir le conteneur */
     height: 100%;
-    /* Définissez la hauteur de l'image à 100% pour la faire remplir le conteneur */
     object-fit: cover;
     position: absolute;
     left: -180px;

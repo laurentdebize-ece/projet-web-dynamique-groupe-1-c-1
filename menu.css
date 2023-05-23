@@ -19,46 +19,46 @@ body {
   .milieuSite::after {
     content: "";
     position: absolute;
-    top: -10px; /* Décale vers le haut pour agrandir la taille */
-    left: -10px; /* Décale vers la gauche pour agrandir la taille */
-    width: calc(100% + 20px); /* Agrandit la largeur */
-    height: calc(100% + 20px); /* Agrandit la hauteur */
-    background-color: rgba(255, 255, 255, 0.2); /* Couleur d'atténuation blanche, réduite en intensité */
-    border-radius: 20px; /* Arrondi les coins du filtre */
-    z-index: -1; /* Assurez-vous que l'élément pseudo soit en arrière-plan */
+    top: -10px; 
+    left: -10px; 
+    width: calc(100% + 20px); 
+    height: calc(100% + 20px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 20px; 
+    z-index: -1; 
   }
   
   
   .milieuSite h1 {
     margin: 0;
-    color: #262626; /* Couleur du texte */
-    font-size: 48px; /* Ajoutez la taille souhaitée pour le titre */
+    color: #262626; 
+    font-size: 48px; 
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: color 0.3s, text-shadow 0.3s; /* Ajoutez une transition pour l'effet de brillance */
+    transition: color 0.3s, text-shadow 0.3s;
   }
   
   .milieuSite h1:hover {
-    color: #FFD700; /* Couleur dorée pour le survol */
-    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); /* Ombre plus intense au survol */
-    transition: color 0.4s ease-in-out, text-shadow 0.3s ease-in-out; /* Ajoute une transition en douceur */
+    color: #FFD700; 
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); 
+    transition: color 0.4s ease-in-out, text-shadow 0.3s ease-in-out; 
 
   }
   
   .milieuSite p {
     margin: 0;
-    color: #262626; /* Couleur du texte */
-    font-size: 24px; /* Ajoutez la taille souhaitée pour le paragraphe */
+    color: #262626; 
+    font-size: 24px; 
     font-style: italic;
     line-height: 1.5;
   }
   
   .milieuSite p:hover {
-    color: #FFD700; /* Couleur dorée pour le survol */
-    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); /* Ombre plus intense au survol */
-    transition: color 0.3s ease-in-out, text-shadow 0.4s ease-in-out; /* Ajoute une transition en douceur */
+    color: #FFD700; 
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); 
+    transition: color 0.3s ease-in-out, text-shadow 0.4s ease-in-out; 
 
   }
   

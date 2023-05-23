@@ -1,4 +1,3 @@
-/* Styles généraux */
 body {
   font-family: Arial, sans-serif;
   background-image: url('images/fond.jpg');
@@ -23,7 +22,6 @@ body {
 
 .messageErreur {
   color: #e74c3c;
-  /* Rouge foncé */
 }
 
 
@@ -59,10 +57,7 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-/* Navbar styles */
-/* Include your existing navbar styles here */
 
-/* Additional styles */
 table caption h2 {
   color: #333333;
   transition: color 0.3s;
@@ -70,4 +65,3 @@ table caption h2 {
 
 
 
-/* Add any additional styles as needed */

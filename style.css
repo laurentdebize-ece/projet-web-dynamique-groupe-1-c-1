@@ -8,7 +8,6 @@
   height: 2000px;
 }
 
-/*page d'accueil */
 .wrapper {
   background-color: #007179;
   height: auto;
@@ -46,7 +45,6 @@
   color: white;
 }
 
-/* Full-width inputs */
 input[type=text],
 input[type=password] {
   width: 100%;
@@ -57,7 +55,6 @@ input[type=password] {
   box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
 .button {
   background-color: #013583;
   color: white;

@@ -6,11 +6,8 @@
 
 .navbar {
     height: 100px;
-    /* Définir la hauteur de la barre */
     padding-top: 20px;
-    /* Ajouter un espace en haut de la barre */
     padding-bottom: 20px;
-    /* Ajouter un espace en bas de la barre */
 
 }
 
@@ -33,7 +30,7 @@
     color: white !important;
     background-color: #007079;
     border-color: white;
-    box-shadow: 3px 5px 5px rgba(0,0,0,0.3);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .btn-case:hover {
@@ -45,11 +42,11 @@
 
 
 }
+
 .btn-case:hover span {
     color: #007079;
 }
 
-/* Styles pour la section de bienvenue */
 .welcome-section {
     position: relative;
     height: 500px;
@@ -91,6 +88,4 @@
     font-weight: bold;
     border-bottom: 2px solid white;
 
-  }
-  
-  
+}

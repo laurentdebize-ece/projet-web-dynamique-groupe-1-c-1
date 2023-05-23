@@ -65,13 +65,13 @@ if (isset($_POST["ChangerMotDePasse"])) {
                 <label class="messageSucces"><?php echo $changementReussi ?></label>
                 <label class="messageErreur"><?php echo $ErreurSaisie ?></label>
 
-                <input type="text" placeholder="Entrer le mot de passe actuel" name="AncienMotDePasse" required>
+                <input type="text" placeholder="Entrer le mot de passe actuel" name="AncienMotDePasse" required><br><br>
 
                 <input type="password" placeholder="Entrer le nouveau mot de passe" name="NouveauMotDePasse" required><br><br>
 
                 <input type="password" placeholder="Ressaisir le nouveau mot de passe" name="NouveauMotDePasse2" required><br><br>
 
-                <input type="submit" class="button" name='ChangerMotDePasse' value='Changer le mot de passe'> <!-- On soumet le formulaire avec ce bouton-->
+                <input type="submit" class="button" name='ChangerMotDePasse' value='Changer le mot de passe'> 
             </form>
 
         </div>

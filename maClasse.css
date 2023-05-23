@@ -63,19 +63,19 @@ table {
   
   caption h2 {
     margin: 0;
-    color: #262626; /* Couleur du texte */
-    font-size: 30px; /* Ajoutez la taille souhaitée pour le titre */
+    color: #262626; 
+    font-size: 30px; 
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    transition: color 0.3s, text-shadow 0.3s; /* Ajoutez une transition pour l'effet de brillance */
+    transition: color 0.3s, text-shadow 0.3s; 
   }
   
   caption h2:hover {
-    color: #FFD700; /* Couleur dorée pour le survol */
-    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); /* Ombre plus intense au survol */
-    transition: color 0.4s ease-in-out, text-shadow 0.3s ease-in-out; /* Ajoute une transition en douceur */
+    color: #FFD700; 
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+    transition: color 0.4s ease-in-out, text-shadow 0.3s ease-in-out; 
   }
   
   

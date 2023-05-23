@@ -5,7 +5,6 @@ body {
     background-repeat: no-repeat;
     object-fit: cover;
     min-height: 100vh;
-    /* définit une hauteur minimale de l'élément body pour afficher l'image de fond */
 
 }
 
@@ -37,17 +36,11 @@ body {
 .text {
     font-size: 14px;
     font-family: Arial, sans-serif;
-    /* ou toute autre police que vous préférez */
     color: #333;
-    /* ou toute autre couleur que vous préférez */
     line-height: 1.5;
-    /* pour un meilleur espacement entre les lignes */
     text-align: justify;
-    /* pour justifier le texte */
     margin: 0;
-    /* pour supprimer les marges par défaut */
     padding: 0;
-    /* pour supprimer le remplissage par défaut */
 }
 
 .adressemail {

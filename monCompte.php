@@ -43,12 +43,9 @@ if (isset($_POST["ChangerMotDePasse"])) {
 
 <head>
     <title>Update</title>
-<<<<<<< HEAD
-=======
     <link rel="stylesheet" type="text/css" href="evaluationeleve.css">
     <link rel="stylesheet" type="text/css" href="monCompte.css">
 
->>>>>>> noe
 </head>
 
 <body>
@@ -70,15 +67,9 @@ if (isset($_POST["ChangerMotDePasse"])) {
 
                 <input type="text" placeholder="Entrer le mot de passe actuel" name="AncienMotDePasse" required><br><br>
 
-<<<<<<< HEAD
-                <input type="password" placeholder="Entrer le nouveau mot de passe" name="NouveauMotDePasse" required><br>
-
-                <input type="password" placeholder="Ressaisir le nouveau mot de passe" name="NouveauMotDePasse2" required><br>
-=======
                 <input type="password" placeholder="Entrer le nouveau mot de passe" name="NouveauMotDePasse" required><br><br>
 
                 <input type="password" placeholder="Ressaisir le nouveau mot de passe" name="NouveauMotDePasse2" required><br><br>
->>>>>>> noe
 
                 <input type="submit" class="button" name='ChangerMotDePasse' value='Changer le mot de passe'> <!-- On soumet le formulaire avec ce bouton-->
             </form>

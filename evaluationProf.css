@@ -1,0 +1,39 @@
+/* Styles spécifiques pour les boutons dans le tableau */
+
+table input[type="submit"].button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  table input[type="submit"].button-primary {
+    background-color: #FFD700;
+    color: white;
+  }
+  
+  table input[type="submit"].button-primary:hover {
+    background-color: #FFC800;
+  }
+  
+  table input[type="submit"].button-secondary {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  table input[type="submit"].button-secondary:hover {
+    background-color: #45a049;
+  }
+  
+  table input[type="submit"].button-danger {
+    background-color: #FF0000;
+    color: white;
+  }
+  
+  table input[type="submit"].button-danger:hover {
+    background-color: #b20000;
+  }
+  

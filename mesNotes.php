@@ -42,14 +42,11 @@ if (!mysqli_num_rows($result)) {
 
 <html>
 
-<<<<<<< HEAD
-=======
 <head>
     <link rel="stylesheet" type="text/css" href="mesNotes.css">
 
 </head>
 
->>>>>>> noe
 <body>
 
     <?php include 'navbar.php'; ?>
@@ -63,11 +60,7 @@ if (!mysqli_num_rows($result)) {
 
             <table>
                 <caption style=text-align:center>
-<<<<<<< HEAD
-                    <h2>Mon relevé de notes</h2>
-=======
                     <h2>" Mon relevé de notes "</h2>
->>>>>>> noe
                 </caption>
                 <tr>
                     <th>Matière</th>

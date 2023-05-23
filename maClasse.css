@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/lyon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.milieuSite {
+    text-align: center;
+}
+
+.messageErreur {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.messageSucces {
+    color: green;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  table::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    z-index: -1;
+  }
+  
+  caption {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  caption h2 {
+    margin: 0;
+    color: #262626; /* Couleur du texte */
+    font-size: 30px; /* Ajoutez la taille souhaitée pour le titre */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s, text-shadow 0.3s; /* Ajoutez une transition pour l'effet de brillance */
+  }
+  
+  caption h2:hover {
+    color: #FFD700; /* Couleur dorée pour le survol */
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7); /* Ombre plus intense au survol */
+    transition: color 0.4s ease-in-out, text-shadow 0.3s ease-in-out; /* Ajoute une transition en douceur */
+  }
+  
+  
+  th,
+  td {
+      border: 1px solid #cccccc;
+      padding: 15px;
+      text-align: center;
+      background-color: #f0f0f0;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #f8f8f8;
+  }
+  
+  tr:hover {
+      background-color: #eaeaea;
+  }
+  
+  

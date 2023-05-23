@@ -65,6 +65,12 @@ if (isset($_POST["ajouterCompetence"])) {
 
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
+=======
+<head>
+    <link rel="stylesheet" type="text/css" href="competence.css">
+</head>
+>>>>>>> noe
 
 <head>
     <title>Ajouter une compétence</title>
@@ -166,10 +172,10 @@ if (isset($_POST["ajouterCompetence"])) {
                     <option value='3'>3</option>
                     <option value='4'>4</option>
                     <option value='5'>5</option>
-                </select>
+                </select><br>
 
                 <input type="submit" class="button" name='ajouterCompetence' value='Ajouter une Compétence'>
-            </form>
+            </form><br>
         </div>
     </div>
 

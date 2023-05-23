@@ -49,6 +49,10 @@ if (!mysqli_num_rows($result)) {
 ?>
 
 <html>
+<<<<<<< HEAD
+=======
+<link rel="stylesheet" type="text/css" href="mesNotes.css">
+>>>>>>> noe
 
 <body>
 

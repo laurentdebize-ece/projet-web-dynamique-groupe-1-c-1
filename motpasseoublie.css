@@ -1,0 +1,101 @@
+body {
+    background-image: url("images/lyon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 100vh;
+    /* définit une hauteur minimale de l'élément body pour afficher l'image de fond */
+
+}
+
+
+
+.box {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.box:hover,
+.box:focus {
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+
+
+
+.text {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    /* ou toute autre police que vous préférez */
+    color: #333;
+    /* ou toute autre couleur que vous préférez */
+    line-height: 1.5;
+    /* pour un meilleur espacement entre les lignes */
+    text-align: justify;
+    /* pour justifier le texte */
+    margin: 0;
+    /* pour supprimer les marges par défaut */
+    padding: 0;
+    /* pour supprimer le remplissage par défaut */
+}
+
+.adressemail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.adressemail label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.adressemail input[type="email"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+
+.adressemail input[type="email"]:focus {
+    outline: none;
+    border-color: #007079;
+    border-radius: 7px;
+    border: 3px solid #007079;
+}
+
+.envoyer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.envoyer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.envoyer button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

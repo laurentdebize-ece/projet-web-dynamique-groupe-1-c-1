@@ -35,6 +35,13 @@ if (!mysqli_num_rows($result)) {
 ?>
 
 <html>
+<<<<<<< HEAD
+=======
+    <head>
+    <link rel="stylesheet" href="maClasse.css">
+
+    </head>
+>>>>>>> noe
 
 <body>
 
@@ -49,7 +56,11 @@ if (!mysqli_num_rows($result)) {
 
             <table>
                 <caption style=text-align:center>
+<<<<<<< HEAD
                     <h2>Ma Classe</h2>
+=======
+                    <h2>" Ma Classe "</h2>
+>>>>>>> noe
                 </caption>
                 <tr>
                     <th>Nom</th>

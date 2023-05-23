@@ -1,0 +1,73 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/fond.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.milieuSite {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.messageErreur {
+  color: #e74c3c;
+  /* Rouge foncé */
+}
+
+
+.messageSucces {
+  color: green;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+caption {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #262626;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Navbar styles */
+/* Include your existing navbar styles here */
+
+/* Additional styles */
+table caption h2 {
+  color: #333333;
+  transition: color 0.3s;
+}
+
+
+
+/* Add any additional styles as needed */

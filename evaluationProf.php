@@ -102,11 +102,13 @@ if (isset($_POST["confirmerEvaluation"])) {
 ?>
 
 <html>
+    <head><link rel="stylesheet" href="evaluationsProf.css"></head>
 
 <body>
 
     <?php include 'navbar.php'; ?>
-
+    
+    
     <div class="wrapper">
 
         <div class="milieuSite">

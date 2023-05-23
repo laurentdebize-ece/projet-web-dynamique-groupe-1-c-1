@@ -39,10 +39,12 @@ if (isset($_POST["ChangerMotDePasse"])) {
 }
 ?>
 
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Update</title>
+    <link rel="stylesheet" href="monCompte.css">
 </head>
 
 <body>
@@ -50,29 +52,27 @@ if (isset($_POST["ChangerMotDePasse"])) {
     <?php include 'navbar.php'; ?>
 
     <div class="wrapper">
-
         <div class="milieuSite">
-            <h1>Nom : <?php echo $Nom ?></h1>
-            <h1>Prenom : <?php echo $Prenom ?></h1>
-            <h1>Email : <?php echo $Email ?></h1>
+            <h3>Nom : <?php echo $Nom ?></h3>
+            <h3>Prénom : <?php echo $Prenom ?></h3>
+            <P>Email : <?php echo $Email ?></p>
 
-            <form class="form" action="monCompte.php" method="POST"> <!--Formulaire pour changer son mot de passe-->
+            <form class="form" action="monCompte.php" method="POST">
                 <h1>Changer le mot de passe</h1>
 
-                <label class="messageSucces"><?php echo $changementReussi ?></label><br>
-                <label class="messageErreur"><?php echo $ErreurSaisie ?></label><br><br> <!--Ligne pour les messages d'erreur - le texte est une variable définie et modifiée dans index.php-->
+                <label class="messageSucces"><?php echo $changementReussi ?></label>
+                <label class="messageErreur"><?php echo $ErreurSaisie ?></label>
 
-                <input type="text" placeholder="Entrer le mot de passe actuel" name="AncienMotDePasse" required><br><br>
+                <input type="text" placeholder="Entrer le mot de passe actuel" name="AncienMotDePasse" required>
 
-                <input type="password" placeholder="Entrer le nouveau mot de passe" name="NouveauMotDePasse" required><br>
+                <input type="password" placeholder="Entrer le nouveau mot de passe" name="NouveauMotDePasse" required>
 
-                <input type="password" placeholder="Ressaisir le nouveau mot de passe" name="NouveauMotDePasse2" required><br>
+                <input type="password" placeholder="Ressaisir le nouveau mot de passe" name="NouveauMotDePasse2" required>
 
-                <input type="submit" class="button" name='ChangerMotDePasse' value='Changer le mot de passe'> <!-- On soumet le formulaire avec ce bouton-->
+                <input type="submit" class="button" name="ChangerMotDePasse" value="Changer le mot de passe">
             </form>
 
         </div>
-
     </div>
 
 </body>

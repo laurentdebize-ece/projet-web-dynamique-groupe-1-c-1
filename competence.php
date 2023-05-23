@@ -63,28 +63,101 @@ if (isset($_POST["ajouterCompetence"])) {
 }
 ?>
 
+<!DOCTYPE html>
 <html>
+
+<head>
+    <title>Ajouter une compétence</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .milieuSite {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 400px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .messageErreur,
+        .messageSucces {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"],
+        select {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: none;
+            height: 40px;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            height: 40px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
 
 <body>
 
     <?php include 'navbar.php'; ?>
 
     <div class="wrapper">
-
         <div class="milieuSite">
 
-            <label class="messageErreur"><?php echo $errreurBdd ?></label><br>
-            <label class="messageSucces"><?php echo $succesBdd ?></label><br>
+            <label class="messageErreur"><?php echo $errreurBdd ?></label>
+            <label class="messageSucces"><?php echo $succesBdd ?></label>
 
             <form class="form" action="competence.php" method="post">
-                <h1>Créer une nouvelle compétence</h1><br>
+                <h1>Créer une nouvelle compétence</h1>
 
-                <input type="text" placeholder="Titre de la compétence" name="titreCompetence" required><br>
+                <input type="text" placeholder="Titre de la compétence" name="titreCompetence" required>
 
                 <label>Cours correspondant</label>
                 <select name="cours" id="cours" required>
                     <?php echo $listeCours ?>
-                </select><br>
+                </select>
 
                 <label>Niveau d'importance</label>
                 <select name="niveauImportance" id="niveauImportance" required>
@@ -93,10 +166,10 @@ if (isset($_POST["ajouterCompetence"])) {
                     <option value='3'>3</option>
                     <option value='4'>4</option>
                     <option value='5'>5</option>
-                </select><br>
+                </select>
 
                 <input type="submit" class="button" name='ajouterCompetence' value='Ajouter une Compétence'>
-            </form><br>
+            </form>
         </div>
     </div>
 

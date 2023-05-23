@@ -102,7 +102,7 @@ if (isset($_POST["confirmerEvaluation"])) {
 ?>
 
 <html>
-    <head><link rel="stylesheet" href="evaluationsProf.css"></head>
+    <head><link rel="stylesheet" href="mesCours.css"></head>
 
 <body>
 

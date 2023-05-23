@@ -22,25 +22,6 @@ if ($Role == "3") {
 
 <html>
 
-<<<<<<< HEAD
-<body>
-  <nav class="navbar content navbar-inverse navbar-fixed-top"> 
-    <div class="container-fluid">
-      <div class="navbar-header">
-
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a class="navbar-brand" href="menu.php"><strong> MENU </strong></a></li>
-        <?php echo $affichageAdmin ?>
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="nav-link disabled" href="monCompte.php"> <?php echo $Nom ?> <?php echo $Prenom ?> </a></li>
-        <li><a class="navbar-brand" href="connexion.php"><strong> DECONNEXION </strong></a></li>
-
-      </ul>
-    </div>
-=======
 <head>
   <link rel="stylesheet" type="text/css" href="navbar.css">
 
@@ -69,6 +50,5 @@ if ($Role == "3") {
   </div>
 
   </nav>
->>>>>>> noe
   </nav>
 </body>

@@ -33,37 +33,6 @@ if (isset($_POST["LOGIN"])) {
         $ConnexionEchec = "Utilisateur inconnu";
     }
 }
-<<<<<<< HEAD
-
-?>
-
-<html>
-
-<body>
-
-    <div class="wrapper">
-
-        <div class="milieuConnexion">
-
-            <form class="form" action="connexion.php" method="POST"> <!--Formulaire de connexion-->
-                <h1>Connexion</h1>
-
-                <label class="messageErreur"><?php echo $ConnexionEchec ?></label><br><br> <!--Ligne pour les messages d'erreur - le texte est une variable définie et modifiée dans index.php-->
-
-                <label>Nom d'utilisateur</label><br>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" name="Email" required><br><br>
-
-                <label>Mot de passe</label>
-                <input type="password" placeholder="Entrer le mot de passe" name="MotDePasse" required><br>
-
-                <input type="submit" class="button" name='LOGIN' value='LOGIN'> <!-- On soumet le formulaire avec ce bouton-->
-            </form>
-
-        </div>
-
-    </div>
-
-=======
 ?>
 
 <!DOCTYPE html>
@@ -158,7 +127,6 @@ if (isset($_POST["LOGIN"])) {
             navButtons[currentSlide].classList.add('active');
         }
     </script>
->>>>>>> noe
 </body>
 
 </html>

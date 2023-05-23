@@ -46,6 +46,14 @@ if (!mysqli_num_rows($result)) {
 
 <html>
 
+<<<<<<< HEAD
+=======
+<head>
+    <link rel="stylesheet" type="text/css" href="mesCours.css">
+
+</head>
+
+>>>>>>> noe
 <body>
 
     <?php include 'navbar.php'; ?>
@@ -59,7 +67,11 @@ if (!mysqli_num_rows($result)) {
 
             <table>
                 <caption style=text-align:center>
+<<<<<<< HEAD
                     <h2>Mes cours</h2>
+=======
+                    <h2>" Mes cours "</h2>
+>>>>>>> noe
                 </caption>
                 <tr>
                     <th>Matière</th>

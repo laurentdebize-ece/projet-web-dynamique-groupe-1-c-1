@@ -1,0 +1,38 @@
+
+
+.navbar {
+    margin-top: 50px;
+    }
+
+.navbar-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav li a.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+.navbar-nav li:hover a.navbar-brand {
+    color: white;
+    background-color: #007079;
+    z-index: 1;
+}
+
+.navbar-nav li a.navbar-brand::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.navbar-nav li:hover a.navbar-brand::before {
+    background-color: #007079;
+    border-radius: 5px;
+}

@@ -6,23 +6,23 @@
   <title>Page d'accueil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="accueil.css">
+  <link rel="stylesheet" href="acceuil_general-prof-etud-admin.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="image/logo_ece.png" width="180" height="50" alt="Logo"></a>
+    <a class="navbar-brand" href="#"><img src="images/logo_ece.png" width="180" height="50" alt="Logo"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
           
         <li class="nav-item ml-2">
-          <a class="nav-link btn btn-outline-primary btn-case" href="etudiant.php"><span>Etudiant</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="connexion.php"><span>Etudiant</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-primary btn-case" href=""><span>Professeur</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="connexion.php"><span>Professeur</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-primary btn-case" href="administration.php"><span>Administration</span></a>
+          <a class="nav-link btn btn-outline-primary btn-case" href="connexion.php"><span>Administration</span></a>
         </li>
           
         
@@ -31,7 +31,7 @@
   </nav>
 
   <div class="welcome-section">
-  <img src="image/inseec-ece-fond.jpg" alt="Imagedefond">
+  <img src="images/inseec-ece-fond.jpg" alt="Imagedefond">
     <div class="filter"></div>
     <div class="text-bar">
       Bienvenue sur L'intranet de l'ECE Paris - Lyon
